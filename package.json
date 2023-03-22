@@ -1,0 +1,19 @@
+{
+  "name": "sass_course",
+  "version": "0.0.1",
+  "description": "curso de sass",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./utils/scss/styles.scss ./utils/css/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EndYou01/SASS-Avanzado.git"
+  },
+  "author": "EndYou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EndYou01/SASS-Avanzado/issues"
+  },
+  "homepage": "https://github.com/EndYou01/SASS-Avanzado#readme"
+}
