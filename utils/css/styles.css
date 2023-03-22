@@ -1,5 +1,16 @@
-.dsc-title {
-  color: greenyellow;
+.dsc-title-primary {
+  color: rgb(35, 35, 139);
+  font-size: 1rem;
+}
+
+.dsc-title-secondary {
+  color: rgb(45, 139, 35);
+  font-size: 1rem;
+}
+
+.dsc-title-dark {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
