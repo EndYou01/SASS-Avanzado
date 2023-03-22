@@ -1,0 +1,44 @@
+.dsc-title-primary {
+  color: rgb(35, 35, 139);
+  font-size: 1rem;
+}
+
+.dsc-title-secondary {
+  color: rgb(45, 139, 35);
+  font-size: 1rem;
+}
+
+.dsc-title-dark {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 1rem;
+  font-weight: 20px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.dsc-card {
+  width: 250px;
+  padding: 0;
+  border-radius: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(45, 139, 35);
+}
+.dsc-card img {
+  width: 100%;
+  height: 150px;
+  display: block;
+}
+.dsc-card_body {
+  height: 50px;
+  text-align: center;
+  background-color: rgb(35, 35, 139);
+  line-height: 50px;
+  color: #fff;
+}
+.dsc-card h1 {
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */
