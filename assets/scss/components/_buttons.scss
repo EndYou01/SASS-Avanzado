@@ -35,12 +35,22 @@
     }
 }
 
+// @mixin button ($name, $color){
+//     &-#{$name}{
+//         border: 1px solid $color;
+//         color: $color;
+//         &:hover{
+//             background: $color;
+//             color: #fff;
+//         }
+//     }
+// }
 @mixin button ($name, $color){
     &-#{$name}{
         border: 1px solid $color;
         color: $color;
         &:hover{
-            background: $color;
+            background: mix($color: #fff, $color: $color, $weight: 0.5);
             color: #fff;
         }
     }
