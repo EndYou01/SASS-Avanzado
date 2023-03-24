@@ -100,6 +100,30 @@
   background: rgb(231, 47, 56);
   color: #fff;
 }
+.btn-outline-dark {
+  border: 1px solid black;
+  color: black;
+}
+.btn-outline-dark:hover {
+  background: black;
+  color: #fff;
+}
+.btn-outline-blue {
+  border: 1px solid #0e36a4;
+  color: #0e36a4;
+}
+.btn-outline-blue:hover {
+  background: #0e36a4;
+  color: #fff;
+}
+.btn-outline-orange {
+  border: 1px solid #d26e10;
+  color: #d26e10;
+}
+.btn-outline-orange:hover {
+  background: #d26e10;
+  color: #fff;
+}
 
 .im-container {
   height: 200px;
