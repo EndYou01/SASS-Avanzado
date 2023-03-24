@@ -84,6 +84,14 @@
   background: rgb(35, 35, 139);
   color: #fff;
 }
+.btn-outline-secondary {
+  border: 1px solid rgb(45, 139, 35);
+  color: rgb(45, 139, 35);
+}
+.btn-outline-secondary:hover {
+  background: rgb(45, 139, 35);
+  color: #fff;
+}
 .btn-outline-success {
   border: 1px solid rgb(40, 192, 40);
   color: rgb(40, 192, 40);
@@ -106,6 +114,14 @@
 }
 .btn-outline-dark:hover {
   background: black;
+  color: #fff;
+}
+.btn-outline-dark-opacity {
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4);
+}
+.btn-outline-dark-opacity:hover {
+  background: rgba(0, 0, 0, 0.4);
   color: #fff;
 }
 .btn-outline-blue {

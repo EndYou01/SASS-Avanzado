@@ -6,7 +6,7 @@
         radius: 5px;
         width: 1px;
         style: solid;
-        color: $secondary;
+        color: map-get($map: $palette, $key: 'secondary');;
     }
     img {
         width: 100%;
@@ -16,7 +16,7 @@
     &_body{
         height: 50px;
         text-align: center;
-        background-color: $primary;
+        background-color: map-get($map: $palette, $key: 'primary');;
         line-height: 50px;
         color: #fff;
         &-title{

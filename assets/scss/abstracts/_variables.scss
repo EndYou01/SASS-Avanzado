@@ -6,3 +6,14 @@ $dark: black;
 $dark_opacity: rgba($dark, 0.4);
 $font-size: 1rem;
 $brand: 'dsc';
+
+$palette: (
+    'primary': rgb(35, 35, 139),
+    'secondary': rgb(45, 139, 35),
+    'success': rgb(40, 192, 40),
+    'danger': rgb(231, 47, 56),
+    'dark': black,
+    'dark-opacity': rgba($dark, 0.4),
+    'blue': #0e36a4, 
+    'orange': #d26e10,
+);

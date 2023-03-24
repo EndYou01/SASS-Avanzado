@@ -1,10 +1,10 @@
 .#{$brand}-title-primary{
-    color: $primary;
+    color: map-get($map: $palette, $key: 'primary');
     font-size: $font-size;
 }
 
 .#{$brand}-title-secondary{
-    color: $secondary;
+    color: map-get($map: $palette, $key: 'secondary');
     font-size: $font-size;
 }
 

@@ -1,4 +1,5 @@
-$colors: 'primary' $primary, 'success' $success, 'danger' $danger, 'dark' $dark, 'blue' #0e36a4, 'orange' #d26e10;
+// $colors: 'primary' $primary, 'success' $success, 'danger' $danger, 'dark' $dark, 'blue' #0e36a4, 'orange' #d26e10;
+
 
 //Solid Buttons
 %btn {
@@ -25,15 +26,15 @@ $colors: 'primary' $primary, 'success' $success, 'danger' $danger, 'dark' $dark,
     }
 
     &primary {
-        background: $primary;
+        background: map-get($map: $palette, $key: 'primary');
     }
 
     &success {
-        background: $success
+        background: map-get($map: $palette, $key: 'success');
     }
 
     &danger {
-        background: $danger;
+        background: map-get($map: $palette, $key: 'danger');
     }
 }
 
@@ -71,7 +72,7 @@ $colors: 'primary' $primary, 'success' $success, 'danger' $danger, 'dark' $dark,
     box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     transform: 0.5s all ease-in-out;
-    @each $name, $color in $colors {
+    @each $name, $color in $palette {
         @include button($name, $color);
     }
     
