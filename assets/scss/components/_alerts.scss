@@ -10,10 +10,10 @@
         color: color('light');
     }
     &-primary{
-        background: reduceColor('primary', 10);
+        background: changeColor('primary', darken, 15);
     }
     &-danger{
-        background: reduceColor('danger', 10);
+        background: changeColor('danger', mixColor, 0, 'success');
     }
     
 }
